@@ -1,0 +1,7 @@
+POST http://127.0.0.1:7001/create
+Content-Type: application/json
+
+{ 
+    "name": "kyraz",
+    "age": 10
+}
