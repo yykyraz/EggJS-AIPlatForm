@@ -2,7 +2,7 @@
  * @Author: yykyraz kk@qq.com
  * @Date: 2023-04-25 19:45:09
  * @LastEditors: yykyraz kk@qq.com
- * @LastEditTime: 2023-04-25 19:54:31
+ * @LastEditTime: 2023-04-25 20:50:22
  * @FilePath: \AIplatformEgg\app\controller\dataset.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -11,7 +11,7 @@
 const Controller = require("egg").Controller;
 class DataSetController extends Controller {
     // 返回所有
-    async all() {
+    async all() { 
         const { ctx } = this;
         const result = await ctx.service.dataset.all();
         ctx.body = result;
