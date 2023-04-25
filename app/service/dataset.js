@@ -9,7 +9,7 @@ class DataSetService extends Service {
             return results;
         } catch (err) {
             return {
-                code: 500,
+                code: 500, 
                 msg: JSON.stringify(err),
             };
         }
